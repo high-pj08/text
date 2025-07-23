@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@plugin "daisyui";
+
+html, body {
+  font-family: 'Poppins', 'Montserrat', 'Inter', 'Nunito', sans-serif;
+  background: linear-gradient(135deg, #000 0%, #222 100%);
+  color: #fff;
+  min-height: 100vh;
+}
